@@ -14,6 +14,9 @@
 		AF0102AF1D3D32DA00622E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0102AD1D3D32DA00622E0E /* LaunchScreen.storyboard */; };
 		AF0102BA1D3D32DA00622E0E /* customSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0102B91D3D32DA00622E0E /* customSliderTests.swift */; };
 		AF0102C51D3D32DA00622E0E /* customSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0102C41D3D32DA00622E0E /* customSliderUITests.swift */; };
+		AF0102D31D3D32EA00622E0E /* MySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0102D21D3D32EA00622E0E /* MySlider.swift */; };
+		AF380F361D3DBEBF001B1015 /* SliderBuffering.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF380F351D3DBEBF001B1015 /* SliderBuffering.swift */; };
+		AFA1D24A1D3E0C0400D5EE2F /* sliderMarkedBar.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA1D2491D3E0C0400D5EE2F /* sliderMarkedBar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AF0102C01D3D32DA00622E0E /* customSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0102C41D3D32DA00622E0E /* customSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSliderUITests.swift; sourceTree = "<group>"; };
 		AF0102C61D3D32DA00622E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0102D21D3D32EA00622E0E /* MySlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySlider.swift; sourceTree = "<group>"; };
+		AF380F351D3DBEBF001B1015 /* SliderBuffering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderBuffering.swift; sourceTree = "<group>"; };
+		AFA1D2491D3E0C0400D5EE2F /* sliderMarkedBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderMarkedBar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		AF0102981D3D32DA00622E0E = {
 			isa = PBXGroup;
 			children = (
+				AFA1D2491D3E0C0400D5EE2F /* sliderMarkedBar.png */,
 				AF0102A31D3D32DA00622E0E /* customSlider */,
 				AF0102B81D3D32DA00622E0E /* customSliderTests */,
 				AF0102C31D3D32DA00622E0E /* customSliderUITests */,
@@ -103,6 +110,8 @@
 				AF0102AB1D3D32DA00622E0E /* Assets.xcassets */,
 				AF0102AD1D3D32DA00622E0E /* LaunchScreen.storyboard */,
 				AF0102B01D3D32DA00622E0E /* Info.plist */,
+				AF0102D21D3D32EA00622E0E /* MySlider.swift */,
+				AF380F351D3DBEBF001B1015 /* SliderBuffering.swift */,
 			);
 			path = customSlider;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				AF0102AF1D3D32DA00622E0E /* LaunchScreen.storyboard in Resources */,
 				AF0102AC1D3D32DA00622E0E /* Assets.xcassets in Resources */,
+				AFA1D24A1D3E0C0400D5EE2F /* sliderMarkedBar.png in Resources */,
 				AF0102AA1D3D32DA00622E0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0102D31D3D32EA00622E0E /* MySlider.swift in Sources */,
 				AF0102A71D3D32DA00622E0E /* ViewController.swift in Sources */,
 				AF0102A51D3D32DA00622E0E /* AppDelegate.swift in Sources */,
+				AF380F361D3DBEBF001B1015 /* SliderBuffering.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				AF0102CB1D3D32DA00622E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF0102CC1D3D32DA00622E0E /* Build configuration list for PBXNativeTarget "customSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				AF0102CE1D3D32DA00622E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF0102CF1D3D32DA00622E0E /* Build configuration list for PBXNativeTarget "customSliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				AF0102D11D3D32DA00622E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
